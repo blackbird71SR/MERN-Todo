@@ -24,6 +24,8 @@ app.use(bodyParser.json())
 
 app.use('/api', routes)
 
+app.use(express.static('client/build'));
+
 app.use((err, req, res, next)=> {
     console.log(err)
     next()
