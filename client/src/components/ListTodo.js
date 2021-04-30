@@ -4,7 +4,6 @@ import React from 'react'
 export default function ListTodo({todos, deleteTodo, updateTodo}) {
     return (
         <div>
-            <ul>
                 {
                     todos && todos.length > 0 ?
                     (
@@ -30,10 +29,9 @@ export default function ListTodo({todos, deleteTodo, updateTodo}) {
                             )
                         })
                     ) : (
-                        <li>No Todos! Add One Now!</li>
+                        <span></span>
                     )
                 }
-            </ul>
         </div>
     )
 }
