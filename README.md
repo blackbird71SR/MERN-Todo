@@ -30,15 +30,6 @@ const TodoSchema = new Schema({
     }
 })
 ``` 
-
-## Deployment
-
-For deployment, I have used Heroku. Heroku provides straight-forward and easily integrable deployment flow. Also using GitHub allows automatic deploys with each push. 
-
-## Not Done Before
-
-Actually I have worked with this complete architecture and tools before. For creating any web project, my current go-to stack is MERN(MongoDB Express React Node) with Heroku hosting.
-
 ## GitHub
 
 [GitHub Repo](https://github.com/blackbird71SR/MERN-Todo)
