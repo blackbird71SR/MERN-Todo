@@ -33,7 +33,3 @@ const TodoSchema = new Schema({
 ## GitHub
 
 [GitHub Repo](https://github.com/blackbird71SR/MERN-Todo)
-
-## Deployment
-
-[Website](https://mern-inbox-todo.herokuapp.com/)
